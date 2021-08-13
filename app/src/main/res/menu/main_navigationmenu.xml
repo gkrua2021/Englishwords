@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/account"
+            android:icon="@drawable/main"
+            android:title="메인화면"
+            />
+
+        <item
+            android:icon="@drawable/main2"
+            android:id="@+id/insert"
+            android:title="단어장"
+            />
+
+        <item
+            android:icon="@drawable/test"
+            android:id="@+id/cart"
+            android:title="단어 테스트"
+            />
+    </group>
+</menu>
